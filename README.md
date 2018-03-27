@@ -18,4 +18,10 @@ python rotate_flip.py --img_folder new_img --label_folder new_lbl --aug_img_fold
 
 Nematodes will still be nematodes if illumination changes. For each image, we adjust the Gamma of the image to 0.5, 1 and 2.0
 
-TODO: Implementation
+Usage:
+
+```bash
+python illumination.py --img_folder new_img --label_folder new_lbl --aug_img_folder aug_img --aug_label_folder aug_lbl --quality 95
+```
+
+`--quality` is the output JPG quality.
